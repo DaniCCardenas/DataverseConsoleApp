@@ -1,0 +1,87 @@
+# Archivos de compilación y herramientas
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]inaries/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+
+# Archivos generados por herramientas de .NET
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.cache
+*.csproj.user
+*.vbpubxml.user
+*.log
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+*.dbmdl
+*.mdf
+*.ldf
+*.db
+*.opendb
+
+# Carpetas generadas por Visual Studio
+.vs/
+packages/
+
+# Archivos generados por la configuración de la aplicación
+appsettings.*.json
+
+# Añadiendo tu archivo personalizado
+appsettings.Development.json
+
+# Ignorar todos los archivos de configuración excepto el de producción
+!appsettings.Production.json
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.g.targets
+
+# Archivos de cobertura de código y resultados de pruebas
+*.coverage
+*.coveragexml
+test-results/
+TestResults/
+
+# Herramientas de rendimiento de Visual Studio
+*.diagsession
+*.pfx
+*.publishsettings
+
+# Otros archivos y carpetas
+[Dd]eploy/
+_ReSharper*/
+*.[Pp]ublish.xml
+*.psess
+*.vsp
+*.swp
+*~
+*.swp
+*.tmp
+*.bak
+*.cache
+*.userprefs
+Thumbs.db
+[Dd]esktop.ini
+*.csr
+*.fst
+*.swf
+*.map
+
+# Archivos y carpetas relacionados con Docker
+docker-compose*.yml
+Dockerfile*
+docker/
